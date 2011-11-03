@@ -1,3 +1,9 @@
+# revision 17964
+# category Package
+# catalog-ctan /fonts/cmll
+# catalog-date 2010-04-20 23:51:50 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-cmll
 Version:	20100420
 Release:	1
@@ -153,6 +159,7 @@ support is provided. format.
 #- source
 %doc %{_texmfdistdir}/source/latex/cmll/cmll.dtx
 %doc %{_texmfdistdir}/source/latex/cmll/cmll.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -163,3 +170,5 @@ support is provided. format.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
