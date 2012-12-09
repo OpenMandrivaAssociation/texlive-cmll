@@ -159,3 +159,18 @@ support is provided. format.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20100420-2
++ Revision: 750312
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20100420-1
++ Revision: 718082
+- texlive-cmll
+- texlive-cmll
+- texlive-cmll
+- texlive-cmll
+- texlive-cmll
+
