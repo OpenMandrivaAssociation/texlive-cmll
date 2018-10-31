@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-cmll
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Symbols for linear logic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cmll
