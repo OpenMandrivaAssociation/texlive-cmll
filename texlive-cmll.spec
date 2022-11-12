@@ -5,9 +5,9 @@ Summary:	Symbols for linear logic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cmll
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmll.r17964.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmll.doc.r17964.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmll.source.r17964.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmll.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmll.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmll.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
