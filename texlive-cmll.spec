@@ -1,6 +1,6 @@
 Name:		texlive-cmll
 Version:	17964
-Release:	1
+Release:	2
 Summary:	Symbols for linear logic
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cmll
