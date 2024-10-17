@@ -3,7 +3,7 @@ Version:	17964
 Release:	2
 Summary:	Symbols for linear logic
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/cmll
+URL:		https://www.ctan.org/tex-archive/fonts/cmll
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmll.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cmll.doc.r%{version}.tar.xz
